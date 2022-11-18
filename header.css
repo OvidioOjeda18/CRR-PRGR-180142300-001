@@ -1,0 +1,31 @@
+header {
+
+	display: flex;
+	height: 100px;
+	background:url(img/pio.jpg) ;
+	justify-content: space-between;
+	align-items: center;
+	background-attachment: fixed;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
+	margin: 0;
+	display: flex;
+    align-items: center;
+	max-width: 100px;
+    padding-left: 20px;
+}
+
+div a {
+	position:center;
+	font-weight: 600px;
+	padding-right: 50px;
+}
+div a:hover{
+	color: rgb(250, 0, 0);
+}
+a {
+	text-decoration:none;
+	color: rgb(7, 7, 7)	;
+	
+}

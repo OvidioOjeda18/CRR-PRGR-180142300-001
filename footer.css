@@ -1,0 +1,18 @@
+
+footer {
+    width: 100%;
+   
+    min-width: 120px;
+    background:url(img/pio.jpg) ;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+
+}
+.logo {
+    width: 70px;
+}

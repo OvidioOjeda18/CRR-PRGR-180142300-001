@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body {
+	color: black;
+	margin: 0;
+	padding: 0;
+	background:url(img/hospital2.jpg) ;
+	background-size: cover;
+	background-position:center ;
+	background-attachment: fixed;
+	margin-top: 0%;
+	font-family:'Times New Roman', Times, serif;
+}
+/* Inicio de la style del los botones de emergencia*/
+.boton {
+	margin: 10px;
+
+}
+.table {
+	position: relative;
+
+
+	
+}
+ table,th,td {
+	border: 1px solid black ;
+	border-collapse: collapse;
+ }
+ th,td {
+	padding: 30px;
+	text-align: left;
+ }
+ .btn {
+	margin: 0;
+	padding: 10px;
+
+
+ }
+ .btn-switch {
+	display: none;
+ }
+ .btn:disabled {
+	margin: 0;
+	padding: 10px;
+	background-color: #eee;
+	text-decoration: line-through;
+
+ }
+/* Final de la style del los botones de emergencia*/
+.table1 {
+	color: red;
+	padding: 10px;
+}
+.entrada {
+	font-size: x-large;
+}
+.entrada h1{
+	color: RED;
+	background: fixed;
+	padding: 50px;
+	text-align: center;
+	font-size: xxx-large;
+}
+.entrada p, h2 {
+	margin: 0;
+	padding: 40px;
+	text-decoration: none;
+	
+
+}
+.hospital img{
+	position: relative;
+	left: 200px;
+	bottom: 200px;
+	width: 520px;
+}
+/*Inicio luces de los quirófanos*/
+.container {
+	display: grid;
+	place-items: right;
+	float: center;
+	position: relative;
+	top: 170px;
+	left: 110px;
+}
+.semaforo {
+	width: 100px;
+	height: 190px;
+	border-radius: 30px;
+	display: grid;
+	place-items: center;
+	padding: 10px;
+	
+	float: center;
+}
+.luces {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+
+	float: center;
+}
+.red  {
+	background-color: red;
+	box-shadow: 0 0 10px 1px red;
+}
+.green  {
+	background-color: green;
+	box-shadow: 0 0 10px 1px green;
+}
+/*Final luces de los quirófanos*/
+.azul a{
+	border:3px solid black;
+	display: inline-flex;
+	color: white;
+	margin: 150px;
+	letter-spacing: 10px;
+	border-radius: 3px;
+	padding: 20px 15px;
+	display: inline-block;
+	background-color: blue;
+	text-shadow: 0 1px 0 rgb(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(139, 96, 96, 0.3);
+}
+/*Inicio formularios*/
+.formulario, form{
+	color: white;
+	background: rgb(10, 110, 156);
+	margin: 20px;
+	width: 300px;
+	padding: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 3px;
+}
+.formulario, li{
+	color: white;
+	background: rgb(10, 110, 156);
+	margin: 20px;
+	width: 300px;
+	padding: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	border-radius: 3px;
+	
+}
+.formulario {
+	
+	margin: 10px;
+	width: 300px;	
+	padding: 10px;
+	color: rgb(13, 17, 24);
+	border-radius: 3px;
+	left: 10px;
+}
+
+.formulario,input{
+	border: 0;
+	outline-color: rgb(156, 187, 245);
+}
+
+.formulario,h2 {
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 20px;
+	border: 3px;
+
+}
+	
+
+
+
+
+
+
+
+/*Final formularios*/

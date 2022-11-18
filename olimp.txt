@@ -1,0 +1,61 @@
+===Database olimp
+
+== Table structure for table admi
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|usuario|varchar(20)|No|
+|password|varchar(20)|No|
+== Dumping data for table admi
+
+|1|admin|admin
+== Table structure for table fichasp
+
+|------
+|Column|Type|Null|Default
+|------
+|dni|varchar(15)|No|
+|edad|int(100)|No|
+|ape|varchar(20)|No|
+|nom|varchar(20)|No|
+|sexo|varchar(10)|No|
+|gs|varchar(20)|No|
+|fecha_actual|timestamp|No|current_timestamp()
+== Dumping data for table fichasp
+
+|123123|12|Romero|Leonardo|Fenenimo|AB|2022-11-18 09:33:29
+== Table structure for table form
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|sp|text|No|
+|fecha_actual|timestamp|No|current_timestamp()
+|tll|varchar(20)|No|
+== Dumping data for table form
+
+== Table structure for table room
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|quiro|varchar(2)|No|
+|fecha_actual|timestamp|No|current_timestamp()
+|btn1|varchar(10)|No|
+== Dumping data for table room
+
+== Table structure for table usuario
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|usuario|varchar(20)|No|
+|password|varchar(20)|No|
+== Dumping data for table usuario
+
+|3|medico|medico

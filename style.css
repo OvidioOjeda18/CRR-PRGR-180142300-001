@@ -1,0 +1,41 @@
+
+.semaforo {
+	width: 100px;
+	height: 190px;
+	border-radius: 30px;
+	display: grid;
+	place-items: center;
+	padding: 10px;
+	
+	float: center;
+}
+.luces {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	float: center;
+	position: relative;
+	top: 170px;
+	left: 110px;
+}
+.luces-circulo::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-right: 4px solid rgb(255, 255,255,0.6);
+    top: 5%;
+}
+.red  {
+	background-color: red;
+	box-shadow: 0 0 10px 1px red;
+}
+.green  {
+	background-color: green;
+	box-shadow: 0 0 10px 1px green;
+}
+
+
